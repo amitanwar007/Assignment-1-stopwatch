@@ -1,0 +1,54 @@
+*{
+     box-sizing: border-box;
+     background-color: bisque;
+     font-family: sans-serif;
+}
+.container>h1{
+     color: lightseagreen;
+     font-size: 2.7rem;
+}
+.container{
+
+ 
+   width: 100%;
+   max-width: 300px;
+   margin: 2rem auto;
+   padding: 1rem 1rem;
+   font-size: 1rem;
+   text-align: center;
+
+}
+
+.time{
+     margin: 2px;
+     text-align: center;
+     margin: 10px;
+     color: black;
+     font-size: 2.7rem;
+}
+.buttons{
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     gap: 1rem;
+     font-size: 2.7rem; 
+     
+}
+.buttons button{
+     background-color: #ffff;
+     border-radius: 1rem;
+     padding: 0.5rem;
+     width: 100%;
+
+}
+
+/* .buttons button:hover {
+	opacity: 0.5;
+     color: #ffff;
+     background-color: black;
+     border-radius: 0.7rem;
+     
+} */
+/* .buttons button:active{
+     background-color: black;
+} */
